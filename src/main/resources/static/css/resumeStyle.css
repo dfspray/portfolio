@@ -51,7 +51,7 @@
 }
 
 .dateWorked {
-	font-size: 18px;
+	font-size: 16px;
 	float: right;
 }
 
@@ -60,15 +60,15 @@
 }
 
 .focusSelect {
-	font-size: 16px;
+	font-size: 18px;
 	padding-bottom: 15px;
 }
 
 .school {
 	padding-bottom: 15px;
+	height: 100px;
 }
 
 .schoolDescription {
 	margin-left: 65px;
-	margin-bottom: 15px;
 }
