@@ -12,7 +12,7 @@ public class MainController {
 	  
 	  @RequestMapping("/about")
 	  public String about() {
-	    return "html/about.html";
+	    return "html/resume.html";
 	  }
 	  
 	  @RequestMapping("/resume")
