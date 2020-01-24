@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- <meta content="IE=edge" http-equiv="X-UA-Compatible"> -->
+<meta name="viewport" content="width=device-width, height=auto, initial-scale=1">
+<title>Daniel Spray</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  background-color: #3e4444;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.titleHeader {
+	margin: auto;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	color: white;
+	z-index: 999;
+	background-color: #3e4444;
+	height: 60px;
+}
+.menu {
+	font-size: 20px;
+	cursor: pointer;
+	position: fixed;
+	left: 10px;
+	top: 0;
+	color: white;
+	z-index: 9999;
+	padding-left: 5px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.menuTitle {
+	font-size: 20px;
+}
+.sidebarTitle {
+	color: whitesmoke;
+	top: 0;
+	left: 0;
+	font-size: 30px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.headerName {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	line-height: 60px;
+	letter-spacing: 3px;
+}
+
+.openNav {
+	width: 200px;
+	border-right: solid;
+	border-width: 1px;
+	border-color: whitesmoke;
+}
+
+@media screen and (max-width: 1024px) {
+	.openNav {width: 150px;}
+    .menuTitle {display: none !important;}
+  	.sidenav a {font-size: 20px;}
+  	.sidebarTitle {font-size: 20px;}
+  	.headerName {font-size: 20px;}
+}
+</style>
+</head>
+<body>
+	<div id="mySideNav" class="sidenav">
+	  <h1 class="sidebarTitle">GET</h1>
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="height:60px;">&times;</a>
+	  <a href="/home">/home</a>
+	  <a href="/resume">/resume</a>
+	  <a href="/about">/about</a>
+	  <a href="/contact">/contact</a>
+	</div>
+	<span class="menu" onclick="openNav()">&#9776; <a class="menuTitle">Menu</a></span>
+	<div class="titleHeader">
+		<h1 class="headerName">DANIEL SPRAY</h1>
+	</div>
+</body>
