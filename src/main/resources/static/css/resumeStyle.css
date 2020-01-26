@@ -12,15 +12,6 @@
 	box-shadow: 3px 3px 5px silver;
 }
 
-.content {
-	width: 90%;
-	padding: 4% 0px 4% 0px;
-	margin: auto;
-	text-align: left;
-	color: #ececec;
-	font-family: 'Karla', sans-serif;
-}
-
 .sectionTitles {
 	font-size: 20px;
 	padding-bottom: 5px;
@@ -30,8 +21,9 @@
 
 .logo {
 	max-height: 50px;
-	max-width: 50px;
+	max-width: 60px;
 	float: left;
+	margin-top: 4px;
 }
 
 .skillLogo {
@@ -53,6 +45,7 @@
 .dateWorked {
 	font-size: 16px;
 	float: right;
+	margin-bottom: 0;
 }
 
 .skillsUsed {
@@ -64,11 +57,65 @@
 	padding-bottom: 15px;
 }
 
+.radioButtons {
+	display: inline-block;
+}
+
+.education {
+	margin: auto;
+}
+
 .school {
 	padding-bottom: 15px;
-	height: 100px;
+	margin: auto;
 }
 
 .schoolDescription {
 	margin-left: 65px;
+}
+
+.degree {
+	font-size: 16px;
+	display: block;
+	
+}
+
+.schoolName {
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+.schoolLocation {
+	font-size: 16px;
+}
+
+.dateAttended {
+	font-size: 16px;
+	float: right;
+}
+
+.coursework {
+	font-size: 16px;
+}
+
+.courseworkList {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
+.companyDescription {
+	font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+	.schoolName {font-size: 15px; letter-spacing: 0px;}
+	.schoolLocation {font-size: 14px;}
+	.dateAttended {font-size: 15px;}
+	.degree {font-size: 14px;}
+	.coursework { font-size: 14px;}
+	.companyName {font-size: 16px;}
+	.companyDescription {font-size: 14px;}
+	.dateWorked {font-size: 14px;}
+	.titleName {font-size: 14px;}
 }

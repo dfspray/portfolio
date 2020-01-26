@@ -12,40 +12,85 @@
 				<div class="content">
 					<div class="focusSelect">
 						<a>Select a focus:</a>
-						<input id="defaultRadio" checked="checked" name="focus" type="radio" value="all" onclick="focusChange('all')"/> All
-						<input id="softwareRadio" name="focus" type="radio" value="software" onclick="focusChange('software')" /> Software
-						<input id="mechanicalRadio" name="focus" type="radio" value="mechanical" onclick="focusChange('mechanical')" /> Mechanical
+						<div class="radioButtons">
+							<input id="defaultRadio" class="radioButton" checked="checked" name="focus" type="radio" value="all" onclick="focusChange('all')"/> All
+							<input id="softwareRadio" class="radioButton" name="focus" type="radio" value="software" onclick="focusChange('software')" /> Software
+							<input id="mechanicalRadio" class="radioButton" name="focus" type="radio" value="mechanical" onclick="focusChange('mechanical')" /> Mechanical
+						</div>
 					</div>
 					<h1 class="sectionTitles">Education</h1>
 					<div class="education">
 						<div class="school">
 							<img class="logo" src="img/uw.jpeg">
 							<div class="schoolDescription">
-								<a>University of Washington - Seattle, Washington - Bachelor of Science in Mechanical Engineering, 2017</a>
+								<a class="dateAttended">2017</a>
+								<a class="schoolName">University of Washington</a>
+								<a class="degree">Mechanical Engineering, B.S.</a>
+								<a class="schoolLocation">Seattle, Washington</a>
+								<div class="coursework">
+									<a>Coursework:</a>
+										<ul class="courseworkList">
+											<li>Additive Manufacturing</li>
+											<li>3D Computer Aided Design</li>
+											<li>Medical Devices</li>
+											<li>Thermodynamics</li>
+										</ul>
+								</div>
 							</div>
 						</div>
 						<div class="school">
 							<img class="logo" src="img/uw.jpeg">
 							<div class="schoolDescription">
-								<a class="software">University of Washington Professional and Continuing Education - Seattle, Washington - Certificate in Python Programming, 2019</a>
+								<a class="dateAttended">2019</a>
+								<a class="schoolName">University of Washington, PCE</a>
+								<a class="degree">Python Programming, Certificate</a>
+								<a class="schoolLocation">Seattle, Washington</a>
+								<div class="coursework">
+									<a>Coursework:</a>
+										<ul class="courseworkList">
+											<li>Python Object Oriented Programming</li>
+											<li>SQL/Relational Databases</li>
+											<li>REST APIs</li>
+											<li>Data Structures</li>
+											<li>Internet of Things</li>
+										</ul>
+								</div>
 							</div>
 						</div>
 						<div class="school">
 							<img class="logo" src="img/uw.jpeg">
 							<div class="schoolDescription">
-								<a class="software">University of Washington Professional and Continuing Education - Seattle, Washington - Certificate in Java Programming, Expected Completion: June 2020</a>
+								<a class="dateAttended">Exp. 06/2020</a>
+								<a class="schoolName">University of Washington, PCE</a>
+								<a class="degree">Java Programming, Certificate</a>
+								<a class="schoolLocation">Seattle, Washington</a>
+								<div class="coursework">
+									<a>Coursework:</a>
+										<ul class="courseworkList">
+											<li>Java Object Oriented Programming</li>
+											<li>Application Development</li>
+											<li>Data Structures</li>
+											<li>Web Applications</li>
+										</ul>
+								</div>
 							</div>
 						</div>
 						<div class="school">
 							<img class="logo" src="img/bc.png">
 							<div class="schoolDescription">
-								<a>Bellevue College - Bellevue, Washington - Associate in Science, 2014</a>
+								<a class="dateAttended">2014</a>
+								<a class="schoolName">Bellevue College</a>
+								<a class="degree">Associate in Science</a>
+								<a class="schoolLocation">Bellevue, Washington</a>
 							</div>
 						</div>
 						<div class="school">
 							<img class="logo" src="img/apu.png">
 							<div class="schoolDescription">
-								<a>Azusa Pacific University - Azusa, California - General Education Coursework, 2012 </a>
+								<a class="dateAttended">2012</a>
+								<a class="schoolName">Azusa Pacific University</a>
+								<a class="degree">General Education Coursework</a>
+								<a class="schoolLocation">Azusa, California</a>
 							</div>
 						</div>
 					</div>
@@ -54,7 +99,7 @@
 						<h2 class="dateWorked">08/2018 to Present</h2>
 						<h2 class="companyName">The Boeing Company</h2>
 						<h2 class="titleName">Manufacturing Engineer</h2>
-						<p>Supported operations in the final assembly of the 737 by resolving engineering issues, developing websites, and analyzing data on the factory floor.</p>
+						<p class="companyDescription">Supported operations in the final assembly of the 737 by resolving engineering issues, developing websites, and analyzing data on the factory floor.</p>
 						<a>Skills Used:</a>
 						<div class="skillsUsed"></div>
 					</div>
@@ -62,7 +107,7 @@
 						<h2 class="dateWorked">03/2018 to 08/2018</h2>
 						<h2 class="companyName">Johnson Controls</h2>
 						<h2 class="titleName">Application Engineer</h2>
-						<p>Built the full library of models and drawings for their reciprocating compressor line, then created a new part numbering scheme to release the drawings into their PDM system.</p>
+						<p class="companyDescription">Built the full library of models and drawings for their reciprocating compressor line, then created a new part numbering scheme to release the drawings into their PDM system.</p>
 						<a>Skills Used:</a>
 						<div class="skillsUsed"></div>
 					</div>
@@ -70,7 +115,7 @@
 						<h2 class="dateWorked">11/2017 to 03/2018</h2>
 						<h2 class="companyName">Spacelabs Healthcare</h2>
 						<h2 class="titleName">Mechanical Engineering Intern</h2>
-						<p>Gained experience in CAD modeling, product testing, 3D printing, and prototyping in a research and development environment.</p>
+						<p class="companyDescription">Gained experience in CAD modeling, product testing, 3D printing, and prototyping in a research and development environment.</p>
 						<a>Skills Used:</a>
 						<div class="skillsUsed"></div>
 					</div>
@@ -78,7 +123,7 @@
 						<h2 class="dateWorked">06/2016 to 09/2016</h2>
 						<h2 class="companyName">Precor Incorporated</h2>
 						<h2 class="titleName">Mechanical Engineering Intern</h2>
-						<p>Learned to create models and drawings in a professional engineering environment</p>
+						<p class="companyDescription">Learned to create models and drawings in a professional engineering environment</p>
 						<a>Skills Used:</a>
 						<div class="skillsUsed"></div>
 					</div>
