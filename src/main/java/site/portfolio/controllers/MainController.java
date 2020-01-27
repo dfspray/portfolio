@@ -24,4 +24,9 @@ public class MainController {
 	  public String about() {
 		  return "html/about.html";
 	  }
+
+	  @RequestMapping("/contact")
+	  public String contact() {
+		  return "html/contact.html";
+	  }
 }

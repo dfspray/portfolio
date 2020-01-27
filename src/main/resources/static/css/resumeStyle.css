@@ -1,29 +1,16 @@
-.main {
-	margin: auto;
-	padding-top: 70px;
-}
-
-.contentBox {
-	margin:auto;
-	max-width:1024px;
-	width: 95%;
-	padding-bottom: 10px;
-	border-radius: 10px;
-	box-shadow: 3px 3px 5px silver;
-}
-
 .sectionTitles {
 	font-size: 20px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid;
 	border-color: silver;
+	margin-bottom: 15px;
 }
 
 .logo {
 	max-height: 50px;
 	max-width: 60px;
-	float: left;
-	margin-top: 4px;
+	margin: auto;
+	display: block;
 }
 
 .skillLogo {
@@ -48,10 +35,6 @@
 	margin-bottom: 0;
 }
 
-.skillsUsed {
-	margin-bottom: 25px;
-}
-
 .focusSelect {
 	font-size: 18px;
 	padding-bottom: 15px;
@@ -63,6 +46,7 @@
 
 .education {
 	margin: auto;
+	margin-top: 15px;
 }
 
 .school {
@@ -71,31 +55,33 @@
 }
 
 .schoolDescription {
-	margin-left: 65px;
 }
 
 .degree {
 	font-size: 16px;
 	display: block;
+	text-align: center;
 	
 }
 
 .schoolName {
 	font-size: 18px;
 	letter-spacing: 3px;
-}
-
-.schoolLocation {
-	font-size: 16px;
+	display: block;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .dateAttended {
 	font-size: 16px;
-	float: right;
+	display: block;
+	text-align: center;
 }
 
 .coursework {
 	font-size: 16px;
+	display: block;
+	margin: auto;
 }
 
 .courseworkList {
@@ -106,6 +92,26 @@
 
 .companyDescription {
 	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.skill {
+	font-size: 12px;
+	border: solid;
+	border-radius: 2px;
+	border-color: silver;
+	border-width: 1px;
+	margin-right: 5px;
+	padding: 2px;
+	white-space: nowrap;
+}
+
+.skillsTitle {
+	font-size: 16px;
+}
+
+.skillsUsed {
+	margin-bottom: 25px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -118,4 +124,5 @@
 	.companyDescription {font-size: 14px;}
 	.dateWorked {font-size: 14px;}
 	.titleName {font-size: 14px;}
+	.skillsTitle {font-size: 14px;}
 }
