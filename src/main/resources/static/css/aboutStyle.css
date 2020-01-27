@@ -1,0 +1,26 @@
+.aboutPicture {
+	float: left;
+	margin: 2px 10px 10px 0px;
+	max-width: 215px;
+	max-height: 215px;
+	border-radius: 5px;
+}
+
+.aboutPictureRight {
+	float: right;
+	margin: 2px 0px 10px 10px;
+	max-width: 215px;
+	max-height: 215px;
+	border-radius: 5px;
+}
+
+.aboutSection {
+	font-size: 30px;
+	display: block;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.aboutPicture {max-width: 180px; max-height: 180px;}
+	.aboutPictureRight {max-width: 180px; max-height: 180px;}
+}
