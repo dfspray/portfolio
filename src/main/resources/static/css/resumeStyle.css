@@ -114,6 +114,16 @@
 	margin-bottom: 25px;
 }
 
+.resumeDownload {
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: -5px;
+	text-decoration: underline;
+	color: #361d91;
+}
+
 @media screen and (max-width: 1024px) {
 	.schoolName {font-size: 15px; letter-spacing: 0px;}
 	.schoolLocation {font-size: 14px;}
