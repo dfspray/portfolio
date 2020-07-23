@@ -95,25 +95,6 @@
 	margin-bottom: 5px;
 }
 
-.skill {
-	font-size: 12px;
-	border: solid;
-	border-radius: 2px;
-	border-color: silver;
-	border-width: 1px;
-	margin-right: 5px;
-	padding: 2px;
-	white-space: nowrap;
-}
-
-.skillsTitle {
-	font-size: 16px;
-}
-
-.skillsUsed {
-	margin-bottom: 25px;
-}
-
 .resumeDownload {
 	font-size: 18px;
 	display: block;
