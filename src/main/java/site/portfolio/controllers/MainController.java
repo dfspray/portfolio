@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 	  @RequestMapping("/")
 	  public String redirect() {
-	    return "redirect:home";
+	    return "redirect:resume";
 	  }
 
 	  @RequestMapping("/home")
 	  public String home() {
-	    return "html/home.html";
+		  return "redirect:resume";
 	  }
 	  
 	  @RequestMapping("/resume")
